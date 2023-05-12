@@ -1,0 +1,31 @@
+.app-container {
+  padding: 16px;
+}
+.nxt-slide-header {
+  display: flex;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.nxt-slide-logo {
+  width: 110px;
+  height: 60px;
+}
+
+.plus-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.slide-container {
+  display: flex;
+}
+
+.slide-tab-panel-container {
+  list-style-type: none;
+  width: 30%;
+}
+
+.active-slide-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+}
