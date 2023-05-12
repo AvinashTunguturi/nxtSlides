@@ -1,6 +1,7 @@
 import {Component} from 'react'
 import {v4 as uuidv4} from 'uuid'
 
+import Header from '../Header'
 import SlideTabPanel from '../SlideTabPanel'
 import ActiveSlideTab from '../ActiveSlideTab'
 
@@ -116,7 +117,8 @@ class NxtSlides extends Component {
     const {currentSlide} = this.state
     return (
       <div className="app-container">
-        {this.renderHeader()}
+        <Header />
+        {/* this.renderHeader() */}
         {this.renderNewSlideButton()}
         <div className="slide-container">
           {this.renderSlideTabPanel()}

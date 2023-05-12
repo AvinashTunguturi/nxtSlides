@@ -1,0 +1,15 @@
+.nxt-slide-header {
+  display: flex;
+  padding-left: 12px;
+  padding-top: 12px;
+  background-color: #f8fafc;
+}
+
+.nxt-slide-logo {
+  width: 110px;
+  height: 60px;
+}
+
+.nxt-slider-website {
+  font-family: 'Bree Serif';
+}

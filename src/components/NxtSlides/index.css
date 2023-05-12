@@ -1,16 +1,8 @@
 .app-container {
   padding: 16px;
 }
-.nxt-slide-header {
-  display: flex;
-  padding-left: 12px;
-  padding-top: 12px;
-}
 
-.nxt-slide-logo {
-  width: 110px;
-  height: 60px;
-}
+
 
 .plus-icon {
   width: 18px;
